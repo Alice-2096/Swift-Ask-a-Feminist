@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1848DACB291BF25C00639E38 /* ask_a_feministApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848DACA291BF25C00639E38 /* ask_a_feministApp.swift */; };
+		1848DACD291BF25C00639E38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848DACC291BF25C00639E38 /* ContentView.swift */; };
+		1848DACF291BF25D00639E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848DACE291BF25D00639E38 /* Assets.xcassets */; };
+		1848DAD3291BF25D00639E38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848DAD2291BF25D00639E38 /* Preview Assets.xcassets */; };
+		1848DADD291BF25D00639E38 /* ask_a_feministTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848DADC291BF25D00639E38 /* ask_a_feministTests.swift */; };
+		1848DAE7291BF25D00639E38 /* ask_a_feministUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848DAE6291BF25D00639E38 /* ask_a_feministUITests.swift */; };
+		1848DAE9291BF25D00639E38 /* ask_a_feministUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848DAE8291BF25D00639E38 /* ask_a_feministUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1848DAD9291BF25D00639E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1848DABF291BF25C00639E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1848DAC6291BF25C00639E38;
+			remoteInfo = "ask-a-feminist";
+		};
+		1848DAE3291BF25D00639E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1848DABF291BF25C00639E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1848DAC6291BF25C00639E38;
+			remoteInfo = "ask-a-feminist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1848DAC7291BF25C00639E38 /* ask-a-feminist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ask-a-feminist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848DACA291BF25C00639E38 /* ask_a_feministApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ask_a_feministApp.swift; sourceTree = "<group>"; };
+		1848DACC291BF25C00639E38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1848DACE291BF25D00639E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1848DAD0291BF25D00639E38 /* ask_a_feminist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ask_a_feminist.entitlements; sourceTree = "<group>"; };
+		1848DAD2291BF25D00639E38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1848DAD8291BF25D00639E38 /* ask-a-feministTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ask-a-feministTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848DADC291BF25D00639E38 /* ask_a_feministTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ask_a_feministTests.swift; sourceTree = "<group>"; };
+		1848DAE2291BF25D00639E38 /* ask-a-feministUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ask-a-feministUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848DAE6291BF25D00639E38 /* ask_a_feministUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ask_a_feministUITests.swift; sourceTree = "<group>"; };
+		1848DAE8291BF25D00639E38 /* ask_a_feministUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ask_a_feministUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1848DAC4291BF25C00639E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DAD5291BF25D00639E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DADF291BF25D00639E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1848DABE291BF25C00639E38 = {
+			isa = PBXGroup;
+			children = (
+				1848DAC9291BF25C00639E38 /* ask-a-feminist */,
+				1848DADB291BF25D00639E38 /* ask-a-feministTests */,
+				1848DAE5291BF25D00639E38 /* ask-a-feministUITests */,
+				1848DAC8291BF25C00639E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1848DAC8291BF25C00639E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1848DAC7291BF25C00639E38 /* ask-a-feminist.app */,
+				1848DAD8291BF25D00639E38 /* ask-a-feministTests.xctest */,
+				1848DAE2291BF25D00639E38 /* ask-a-feministUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1848DAC9291BF25C00639E38 /* ask-a-feminist */ = {
+			isa = PBXGroup;
+			children = (
+				1848DACA291BF25C00639E38 /* ask_a_feministApp.swift */,
+				1848DACC291BF25C00639E38 /* ContentView.swift */,
+				1848DACE291BF25D00639E38 /* Assets.xcassets */,
+				1848DAD0291BF25D00639E38 /* ask_a_feminist.entitlements */,
+				1848DAD1291BF25D00639E38 /* Preview Content */,
+			);
+			path = "ask-a-feminist";
+			sourceTree = "<group>";
+		};
+		1848DAD1291BF25D00639E38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1848DAD2291BF25D00639E38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1848DADB291BF25D00639E38 /* ask-a-feministTests */ = {
+			isa = PBXGroup;
+			children = (
+				1848DADC291BF25D00639E38 /* ask_a_feministTests.swift */,
+			);
+			path = "ask-a-feministTests";
+			sourceTree = "<group>";
+		};
+		1848DAE5291BF25D00639E38 /* ask-a-feministUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1848DAE6291BF25D00639E38 /* ask_a_feministUITests.swift */,
+				1848DAE8291BF25D00639E38 /* ask_a_feministUITestsLaunchTests.swift */,
+			);
+			path = "ask-a-feministUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1848DAC6291BF25C00639E38 /* ask-a-feminist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848DAEC291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feminist" */;
+			buildPhases = (
+				1848DAC3291BF25C00639E38 /* Sources */,
+				1848DAC4291BF25C00639E38 /* Frameworks */,
+				1848DAC5291BF25C00639E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ask-a-feminist";
+			productName = "ask-a-feminist";
+			productReference = 1848DAC7291BF25C00639E38 /* ask-a-feminist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1848DAD7291BF25D00639E38 /* ask-a-feministTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848DAEF291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feministTests" */;
+			buildPhases = (
+				1848DAD4291BF25D00639E38 /* Sources */,
+				1848DAD5291BF25D00639E38 /* Frameworks */,
+				1848DAD6291BF25D00639E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1848DADA291BF25D00639E38 /* PBXTargetDependency */,
+			);
+			name = "ask-a-feministTests";
+			productName = "ask-a-feministTests";
+			productReference = 1848DAD8291BF25D00639E38 /* ask-a-feministTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1848DAE1291BF25D00639E38 /* ask-a-feministUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848DAF2291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feministUITests" */;
+			buildPhases = (
+				1848DADE291BF25D00639E38 /* Sources */,
+				1848DADF291BF25D00639E38 /* Frameworks */,
+				1848DAE0291BF25D00639E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1848DAE4291BF25D00639E38 /* PBXTargetDependency */,
+			);
+			name = "ask-a-feministUITests";
+			productName = "ask-a-feministUITests";
+			productReference = 1848DAE2291BF25D00639E38 /* ask-a-feministUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1848DABF291BF25C00639E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1848DAC6291BF25C00639E38 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1848DAD7291BF25D00639E38 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1848DAC6291BF25C00639E38;
+					};
+					1848DAE1291BF25D00639E38 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1848DAC6291BF25C00639E38;
+					};
+				};
+			};
+			buildConfigurationList = 1848DAC2291BF25C00639E38 /* Build configuration list for PBXProject "ask-a-feminist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1848DABE291BF25C00639E38;
+			productRefGroup = 1848DAC8291BF25C00639E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1848DAC6291BF25C00639E38 /* ask-a-feminist */,
+				1848DAD7291BF25D00639E38 /* ask-a-feministTests */,
+				1848DAE1291BF25D00639E38 /* ask-a-feministUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1848DAC5291BF25C00639E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848DAD3291BF25D00639E38 /* Preview Assets.xcassets in Resources */,
+				1848DACF291BF25D00639E38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DAD6291BF25D00639E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DAE0291BF25D00639E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1848DAC3291BF25C00639E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848DACD291BF25C00639E38 /* ContentView.swift in Sources */,
+				1848DACB291BF25C00639E38 /* ask_a_feministApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DAD4291BF25D00639E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848DADD291BF25D00639E38 /* ask_a_feministTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1848DADE291BF25D00639E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848DAE7291BF25D00639E38 /* ask_a_feministUITests.swift in Sources */,
+				1848DAE9291BF25D00639E38 /* ask_a_feministUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1848DADA291BF25D00639E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1848DAC6291BF25C00639E38 /* ask-a-feminist */;
+			targetProxy = 1848DAD9291BF25D00639E38 /* PBXContainerItemProxy */;
+		};
+		1848DAE4291BF25D00639E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1848DAC6291BF25C00639E38 /* ask-a-feminist */;
+			targetProxy = 1848DAE3291BF25D00639E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1848DAEA291BF25D00639E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1848DAEB291BF25D00639E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1848DAED291BF25D00639E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ask-a-feminist/ask_a_feminist.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ask-a-feminist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feminist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1848DAEE291BF25D00639E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ask-a-feminist/ask_a_feminist.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ask-a-feminist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feminist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1848DAF0291BF25D00639E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feministTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ask-a-feminist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ask-a-feminist";
+			};
+			name = Debug;
+		};
+		1848DAF1291BF25D00639E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feministTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ask-a-feminist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ask-a-feminist";
+			};
+			name = Release;
+		};
+		1848DAF3291BF25D00639E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feministUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ask-a-feminist";
+			};
+			name = Debug;
+		};
+		1848DAF4291BF25D00639E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alicejiang.ask-a-feministUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ask-a-feminist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1848DAC2291BF25C00639E38 /* Build configuration list for PBXProject "ask-a-feminist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848DAEA291BF25D00639E38 /* Debug */,
+				1848DAEB291BF25D00639E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848DAEC291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feminist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848DAED291BF25D00639E38 /* Debug */,
+				1848DAEE291BF25D00639E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848DAEF291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feministTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848DAF0291BF25D00639E38 /* Debug */,
+				1848DAF1291BF25D00639E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848DAF2291BF25D00639E38 /* Build configuration list for PBXNativeTarget "ask-a-feministUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848DAF3291BF25D00639E38 /* Debug */,
+				1848DAF4291BF25D00639E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1848DABF291BF25C00639E38 /* Project object */;
+}
